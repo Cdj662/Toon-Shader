@@ -1,6 +1,6 @@
 ﻿void LightInformation_float(out float3 Direction, out float3 Color, out float Attenuation)
 {
-#ifdef
+#ifdef SHADERGRAPH_PREVIEW
 	Direction = float3(-0.2, 0.2, -0.2);
 	Color = float3(1, 1, 1);
 	Attenuation = 0.6;
